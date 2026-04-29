@@ -333,4 +333,5 @@ async def сбор(ctx):
 
     await ctx.send(text)
 
-bot.run("MTQ5ODgyOTE3NzQ4MTE5OTY4Nw.GWZYP_.ja7TO_v5XIH-1e-AJB8tyP-BXlWmN2n2L7fL6M")
+import os
+bot.run(os.getenv("TOKEN"))
